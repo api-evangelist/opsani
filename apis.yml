@@ -1,7 +1,28 @@
 aid: opsani
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opsani.png
 name: Opsani
-description: Opsani is a company surfaced as a portfolio company of redpoint-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Opsani was an enterprise software company based in Redwood City, California that
+  delivered an ML-driven cloud platform for Continuous Optimization as a Service
+  (COaaS), automatically and continuously tuning cloud-native (Kubernetes)
+  application configurations for the best balance of performance, availability, and
+  cost. Opsani was acquired by Cisco in January 2022 and folded into the Cisco
+  AppDynamics full-stack observability portfolio (subsequently part of Splunk). The
+  company no longer operates an independent API surface — opsani.com now redirects to
+  Splunk and docs.opsani.com no longer resolves. The one surviving public first-party
+  artifact is the open-source Servo (servox) optimization agent, still published on
+  PyPI and hosted at github.com/opsani.
 url: https://raw.githubusercontent.com/api-evangelist/opsani/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +30,19 @@ x-backed-by:
 - redpoint-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-detail: Acquired by Cisco (Jan 2022); folded into Cisco AppDynamics / Splunk. No live API surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Optimization
+- Kubernetes
+- Cloud Native
+- Machine Learning
+- Observability
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,16 @@ maintainers:
 common:
 - type: Website
   url: https://opsani.com/
+- type: GitHubOrganization
+  url: https://github.com/opsani
+- type: SourceCode
+  url: https://github.com/opsani/servox
+- type: Packages
+  url: packages/opsani-packages.yml
+- type: SDKs
+  url: packages/opsani-packages.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

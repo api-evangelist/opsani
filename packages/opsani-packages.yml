@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/project/servox/
+note: >-
+  Opsani (Continuous Optimization as a Service) was acquired by Cisco in January
+  2022 and folded into Cisco AppDynamics (now part of Splunk). opsani.com now
+  redirects to Splunk and docs.opsani.com no longer resolves, so there is no live
+  API surface. The one surviving first-party artifact is the open-source Servo
+  optimization agent, still published on PyPI and hosted at github.com/opsani.
+packages:
+  - language: python
+    registry: pypi
+    name: servox
+    version: 25.3.0
+    url: https://pypi.org/project/servox/
+    repository: https://github.com/opsani/servox
+    install: pip install servox
+    license: Apache-2.0
+    author: Blake Watters
+    summary: "Opsani Servo: The Next Generation — the optimization agent for Opsani"
+    official: true
