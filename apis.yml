@@ -54,7 +54,7 @@ tags:
 - Optimization
 - Kubernetes
 - Cloud-Native
-- Machine-Learning
+- Machine Learning
 - Observability
 - Acquired
 tags_raw:
@@ -65,6 +65,7 @@ tags_raw:
 - Machine Learning
 - Observability
 - Acquired
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
